@@ -24,24 +24,23 @@ ul{
 li{
     list-style: none;
     font-family: sans-serif;
+    text-transform: uppercase;
 }
 li a:link:hover{
     text-decoration: underline;
-    color: red;
+    color: purple;
 }
 li a:link{
     /* color: white ; */
     text-decoration: none;
     transition: 400ms;
-}
-li a:visited{
     color: white ;
 }
 li a:visited:hover{
     color: red;
 }
 .page{
-    background: url(/currencyConverter/money_1664288355.jpg) no-repeat;
+    background: url("https://www.investopedia.com/thmb/lSMOlzF853E72-0HDkH25mmAdOM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-848755326-48dd2711646247648c4faebc98715119.jpg") no-repeat;
     background-size: 100% 100%;
     height:100vh;
     display: flex;
@@ -56,7 +55,7 @@ li a:visited:hover{
 .insertCont{
     width: 90%;
     display: flex;
-    /* justify-content: center; */
+    border-radius: 30px;
     align-items: center;
     gap: 3px;
     background: white;
@@ -73,7 +72,7 @@ li a:visited:hover{
     outline: none;
 }
 .curCont{
-    background: rgb(110, 110, 180);
+    background: linear-gradient(356deg, black, transparent);
     background-size: 100% 100%;
     border-radius: 50px;
     display: flex;
@@ -86,7 +85,7 @@ li a:visited:hover{
     height: 450px;
 }
 .curContN {
-    background: rgb(110, 110, 180);
+    background: linear-gradient(356deg, black, transparent);
     background-size: 100% 100%;
     border-radius: 50px;
     display: flex;
@@ -101,11 +100,11 @@ li a:visited:hover{
 .curCont h1{
     color: white;
     text-transform: uppercase;
-    background: #a9ab94;
+    background: #a9ab94cc;
 }.curContN h1{
     color: white;
     text-transform: uppercase;
-    background: #889aba;
+    background: #a9ab94cc;
 }
 #button{
     font-size: 25px;
